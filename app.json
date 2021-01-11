@@ -6,7 +6,7 @@
     "bot",
     "forwarder"
   ],
-  "repository": "hhttps://github.com/ACHIYA96",
+  "repository": "https://github.com/ACHIYA96/ACHI-TG-msg-FWDr/tree/master",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables.",
@@ -23,12 +23,12 @@
     "FROM_CHATS": {
       "description": "List of chat id's to forward messages from.",
       "required": false
-	  "value": "-1001256019772"
+      "value": "-1001256019772"
     },
     "TO_CHATS": {
       "description": "List of chat id's to forward messages to",
       "required": false
-	  "value": "-1001216899615"
+      "value": "-1001216899615"
     },
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode messages.",
