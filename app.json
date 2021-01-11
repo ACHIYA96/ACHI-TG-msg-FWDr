@@ -6,7 +6,7 @@
     "bot",
     "forwarder"
   ],
-  "repository": "https://github.com/ACHIYA96/ACHI-TG-msg-FWDr/tree/master",
+  "repository": "https://github.com/ACHIYA96/ACHI-TG-msg-FWDr/",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables.",
@@ -18,16 +18,14 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID.",
-      "value": "510597269",
+      "value": "510597269"
     },
     "FROM_CHATS": {
-      "description": "List of chat id's to forward messages from.",
-      "value": "-1001256019772",
+      "description": "List of chat id's to forward messages from. -1001256019772",
       "required": false
     },
     "TO_CHATS": {
-      "description": "List of chat id's to forward messages to",
-      "value": "-1001216899615",
+      "description": "List of chat id's to forward messages to. -1001216899615",
       "required": false
     },
     "WEBHOOK": {
