@@ -16,7 +16,7 @@ ENV = bool(os.environ.get('ENV', False))
 if ENV:
     API_KEY = os.environ.get('API_KEY', None)
     try:
-        OWNER_ID = int(os.environ.get('OWNER_ID', None))
+        OWNER_ID = set(int(x) for x in os.environ.get('OWNER_ID', "").split())
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 
